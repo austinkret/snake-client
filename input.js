@@ -41,6 +41,18 @@ const handleUserInput = function(data) {
       // console.log('key pressed');
       process.stdout.write(`right\n`);
     }
+    if (key === '\u007A') {
+      connection.write('Say: Nice One!');
+    }
+    if (key === '\u0078') {
+      connection.write('Say: What a save!');
+    }
+    if (key === '\u0063') {
+      connection.write('Say: My Bad!');
+    }
+    if (key === '\u0076') {
+      connection.write('Say: Savage.');
+    }
   });
 };
 
