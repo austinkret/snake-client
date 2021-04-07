@@ -27,7 +27,7 @@ const connection = function() {
     //Instruction to server to write name
     connection.write(`Name: ${name}`);
 
-    
+
 
     // setTimeout(()=>{
     //   connection.write(`Move: up`);
