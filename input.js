@@ -23,23 +23,15 @@ const handleUserInput = function(data) {
     }
     if (key === '\u0077') {
       connection.write('Move: up');
-      // console.log('key pressed');
-      process.stdout.write(`up\n`);
     }
     if (key === '\u0061') {
       connection.write('Move: left');
-      // console.log('key pressed');
-      process.stdout.write(`left\n`);
     }
     if (key === '\u0073') {
       connection.write('Move: down');
-      // console.log('key pressed');
-      process.stdout.write(`down\n`);
     }
     if (key === '\u0064') {
       connection.write('Move: right');
-      // console.log('key pressed');
-      process.stdout.write(`right\n`);
     }
     if (key === '\u007A') {
       connection.write('Say: Nice One!');
